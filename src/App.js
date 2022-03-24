@@ -11,8 +11,8 @@ import Cart from './components/Cart';
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className='body'>
+      <Header className="appHeader" />
       <Routes>
         <Route path='/' element={<Home />}  />
         <Route path='/cart' element={<Cart />} />

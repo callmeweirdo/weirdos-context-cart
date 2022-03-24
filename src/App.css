@@ -1,4 +1,16 @@
+*{
+  margin: 0;
+}
 a{
   text-decoration: none !important;
   color: inherit !important;
+}
+
+.body{
+  width: 100vw;
+}
+
+.appHeader{
+  position: sticky;
+  top: 100px;
 }
